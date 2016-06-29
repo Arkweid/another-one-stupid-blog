@@ -24,6 +24,7 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
+gem 'bootstrap-sass', '2.3.2.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
