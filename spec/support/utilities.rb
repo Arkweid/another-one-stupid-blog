@@ -1,9 +1,4 @@
-# Для использование определенных методов в спеках
-def full_title(page_title)
-  base_title = "Ruby on Rails Tutorial Sample App"
-  if page_title.empty?
-    base_title
-  else
-    "#{base_title} | #{page_title}"
-  end
-end
+# Для использования определенных методов в спеках
+
+# Включим файл из app/helpers/application_helper.rb
+include ApplicationHelper
