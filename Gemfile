@@ -24,6 +24,9 @@ group :test do
   gem 'capybara', '2.1.0'
 end
 
+gem 'bcrypt-ruby'
+gem "minitest"
+
 gem 'bootstrap-sass', '2.3.2.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

@@ -28,6 +28,9 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    bcrypt (3.1.11-x86-mingw32)
+    bcrypt-ruby (3.1.5-x86-mingw32)
+      bcrypt (>= 3.1.3)
     bootstrap-sass (2.3.2.0)
       sass (~> 3.2)
     builder (3.2.2)
@@ -147,12 +150,14 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  bcrypt-ruby
   bootstrap-sass (= 2.3.2.0)
   capybara (= 2.1.0)
   coffee-rails (~> 4.0.0)
   coffee-script-source (= 1.8.0)
   jbuilder (~> 2.0)
   jquery-rails
+  minitest
   rails (= 4.1.8)
   rspec-rails (= 2.13.1)
   sass-rails (~> 4.0.3)
