@@ -29,6 +29,7 @@ gem 'bcrypt-ruby'
 gem "minitest"
 gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
+gem 'faker', '1.1.2'
 
 gem 'bootstrap-sass', '2.3.2.0'
 # Use jquery as the JavaScript library
